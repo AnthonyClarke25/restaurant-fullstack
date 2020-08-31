@@ -19,10 +19,13 @@ Route::get('/', function () {
 
 
 
-Route::get('/menu', function () {
+Route::get('/food', function () {
     return view('menu/index');
 });
 
+Route::get('/about', function () {
+    return view('pages/about');
+});
 
 Route::get('/waitlist', function () {
     return view('pages/waitlist');
