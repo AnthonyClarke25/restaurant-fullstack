@@ -4,6 +4,8 @@
 @import "home";
 @import "pages/about";
 @import "pages/waitlist";
+@import "pages/offers";
+@import "menu/index";
 @import "bootstrap.min.css";
 
 body {
@@ -150,7 +152,7 @@ body {
         /* Chrome10-25,Safari5.1-6 */
         background: radial-gradient(ellipse at center, #ed4852 0%, #9c1b24 100%);
         /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-        overflow: hidden;
+        //overflow: hidden;
 
 
     }
@@ -289,7 +291,7 @@ body {
         max-width: 1400px;
         // display: flex;
         // margin-bottom: 2rem;
-        overflow: hidden;
+       overflow: hidden;
         position: relative;
         font-size: 0;
 
