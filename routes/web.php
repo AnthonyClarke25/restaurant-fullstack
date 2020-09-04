@@ -19,9 +19,14 @@ Route::get('/', function () {
 
 
 
-Route::get('/food', function () {
+Route::get('/menu', function () {
     return view('menu/index');
 });
+
+Route::get('/menu/{slug}', function () {
+    return view('menu/single-menu');
+});
+
 
 Route::get('/about', function () {
     return view('pages/about');
