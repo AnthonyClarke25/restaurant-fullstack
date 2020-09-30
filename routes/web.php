@@ -22,7 +22,7 @@ Route::get('/admin', function () {
 });
 
 Route::get('/admin/food-categories', function () {
-    return view('admin/food-categories/all.blade.php');
+    return view('admin/food-categories/all');
 });
 
 Route::get('/admin/register', function () {
